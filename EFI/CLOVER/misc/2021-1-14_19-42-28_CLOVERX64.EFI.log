@@ -1,0 +1,1009 @@
+0:100  0:100  MemLog inited, TSC freq: 2333068103
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x2E208086
+0:100  0:000   Intel Series 4 and similar (PAM 0x90-0x96)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=00, 0x91=11) at chipset 2E208086
+0:100  0:000  , Install = Success
+0:109  0:009  BiosVideoDriverBindingStart!
+0:109  0:000  BiosVideoCheckForVbe
+0:109  0:000  EdidOverride not found
+0:335  0:226   Edid1-
+0:562  0:226   Edid0-
+0:750  0:187   Edid1-
+0:812  0:062   Edid0+
+0:812  0:000   found Detail Timing 1280x1024
+0:851  0:038     0 640x480 attr=3BF - ok, edid+, 640x480, working, highest, pref=0
+0:852  0:001     1 800x600 attr=3BF - ok, edid+, 800x600, working, highest, pref=1
+0:853  0:001     2 1024x768 attr=3BF - ok, edid+, 1024x768, working, highest, pref=2
+0:854  0:001     3 1280x1024 attr=3BF - ok, edid+, working, highest, pref=3
+0:860  0:005  BV new mode: 3 1280x1024
+1:328  0:468   SetMode pref 3 (3) = Success
+4:172  2:844  CloverX64 : Image base = 0xDDE44000
+4:172  0:000  
+4:172  0:000  Now is 14.01.2021,  19:08:02 (GMT)
+4:172  0:000  Starting Clover revision: 5128 (master, commit a9778cd8d) on CLOVER EFI
+4:172  0:000  Build id: 20210106115102-a9778cd-5128-dirty
+4:172  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+4:180  0:008  SimpleTextEx Status=Success
+4:181  0:000  === [ GetDefaultSettings ] ======================
+4:181  0:000  === [ Get Smbios ] ==============================
+4:181  0:000  Type 16 Index = 0
+4:181  0:000  Total Memory Slots Count = 4
+4:181  0:000  Type 17 Index = 0
+4:181  0:000  SmbiosTable.Type17->Speed = 800MHz
+4:181  0:000  SmbiosTable.Type17->Size = 2048MB
+4:181  0:000  SmbiosTable.Type17->Bank/Device = Bank0/1 A0
+4:181  0:000  SmbiosTable.Type17->Vendor =  
+4:181  0:000  SmbiosTable.Type17->SerialNumber =  
+4:181  0:000  SmbiosTable.Type17->PartNumber =  
+4:181  0:000  Type 17 Index = 1
+4:181  0:000  SmbiosTable.Type17->Speed = 800MHz
+4:181  0:000  SmbiosTable.Type17->Size = 2048MB
+4:181  0:000  SmbiosTable.Type17->Bank/Device = Bank2/3 A1
+4:181  0:000  SmbiosTable.Type17->Vendor =  
+4:181  0:000  SmbiosTable.Type17->SerialNumber =  
+4:181  0:000  SmbiosTable.Type17->PartNumber =  
+4:181  0:000  Type 17 Index = 2
+4:181  0:000  SmbiosTable.Type17->Speed = 800MHz
+4:181  0:000  SmbiosTable.Type17->Size = 2048MB
+4:181  0:000  SmbiosTable.Type17->Bank/Device = Bank4/5 A2
+4:181  0:000  SmbiosTable.Type17->Vendor =  
+4:181  0:000  SmbiosTable.Type17->SerialNumber =  
+4:181  0:000  SmbiosTable.Type17->PartNumber =  
+4:181  0:000  Type 17 Index = 3
+4:181  0:000  SmbiosTable.Type17->Speed = 800MHz
+4:181  0:000  SmbiosTable.Type17->Size = 2048MB
+4:181  0:000  SmbiosTable.Type17->Bank/Device = Bank6/7 A3
+4:181  0:000  SmbiosTable.Type17->Vendor =  
+4:181  0:000  SmbiosTable.Type17->SerialNumber =  
+4:181  0:000  SmbiosTable.Type17->PartNumber =  
+4:181  0:000  Boot status=0
+4:181  0:000  Running on: 'EP45-UD3R' with board 'EP45-UD3R'
+4:181  0:000  === [ GetCPUProperties ] ========================
+4:181  0:000  CPU Vendor = 756E6547 Model=1067A
+4:181  0:000   The CPU supported SSE4.1
+4:181  0:000  BrandString = Intel(R) Core(TM)2 Quad CPU    Q8200  @ 2.33GHz
+4:181  0:000  got cores from CPUID_1 = 4
+4:181  0:000   The CPU not supported turbo
+4:181  0:000  MSR dumps:
+4:181  0:000  	@0x00CD=80000a04
+4:181  0:000  	@0x0198=616072206000722
+4:181  0:000  FSBFrequency = 572 MHz, DMI FSBFrequency = 333 MHz, Corrected FSBFrequency = 333 MHz
+4:181  0:000  MaxDiv/MinDiv: 7.0/6
+4:181  0:000  Turbo: 8/0/0/0
+4:181  0:000  Features: 0x408E39DBFEBFBFF
+4:181  0:000  Threads: 4
+4:181  0:000  Cores: 4
+4:181  0:000  FSB: 333 MHz
+4:181  0:000  CPU: 4000 MHz
+4:181  0:000  TSC: 4000 MHz
+4:181  0:000  PIS: 1333 MHz
+4:181  0:000  ExternalClock: 333 MHz
+4:181  0:000  === [ GetDevices ] ==============================
+4:181  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+4:181  0:000  PCI (00|00:00.00) : 8086 2E20 class=060000
+4:181  0:000  PCI (00|00:01.00) : 8086 2E21 class=060400
+4:181  0:000  PCI (00|01:00.00) : 10DE 0610 class=030000
+4:181  0:000   - GOP: Provided by device
+4:181  0:000   - GFX: Model=XFX GeForce 9600 GSO family 92 (Tesla)
+4:181  0:000  PCI (00|00:1A.00) : 8086 3A37 class=0C0300
+4:181  0:000  PCI (00|00:1A.01) : 8086 3A38 class=0C0300
+4:181  0:000  PCI (00|00:1A.02) : 8086 3A39 class=0C0300
+4:181  0:000  PCI (00|00:1A.07) : 8086 3A3C class=0C0320
+4:181  0:000  PCI (00|00:1B.00) : 8086 3A3E class=040300
+4:181  0:000  PCI (00|00:1C.00) : 8086 3A40 class=060400
+4:181  0:000  PCI (00|00:1C.03) : 8086 3A46 class=060400
+4:181  0:000  PCI (00|03:00.00) : 197B 2363 class=010185
+4:181  0:000  PCI (00|00:1C.04) : 8086 3A48 class=060400
+4:181  0:000  PCI (00|04:00.00) : 10EC 8168 class=020000
+4:181  0:000   - LAN: 0 Vendor=Realtek
+4:181  0:000  PCI (00|00:1D.00) : 8086 3A34 class=0C0300
+4:181  0:000  PCI (00|00:1D.01) : 8086 3A35 class=0C0300
+4:181  0:000  PCI (00|00:1D.02) : 8086 3A36 class=0C0300
+4:181  0:000  PCI (00|00:1D.07) : 8086 3A3A class=0C0320
+4:181  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+4:181  0:000  PCI (00|05:07.00) : 104C 8024 class=0C0010
+4:181  0:000  PCI (00|00:1F.00) : 8086 3A16 class=060100
+4:181  0:000  PCI (00|00:1F.02) : 8086 3A22 class=010601
+4:181  0:000  PCI (00|00:1F.03) : 8086 3A30 class=0C0500
+4:181  0:000  Clover load options size = 0 bytes
+4:190  0:008  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R--00-00-00-00-00-00'. Dir doesn't exist.
+4:190  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R'. Dir doesn't exist.
+4:190  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R-4000'. Dir doesn't exist.
+4:190  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R'. Dir doesn't exist.
+4:190  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R-4000'. Dir doesn't exist.
+4:190  0:000  Using config.plist at path: \EFI\CLOVER
+4:191  0:000  \EFI\CLOVER\config.plist  loaded: Success
+4:195  0:004  === [ GetListOfThemes ] =========================
+4:195  0:000  - [00]: embedded
+4:195  0:000  - [00]: random
+4:196  0:000  - [00]: tonymacx86
+4:213  0:017  - [01]: Simple Theme Dark
+4:230  0:016  - [02]: Aero
+4:254  0:023  - [03]: BGM
+4:290  0:035  - [04]: cesium
+4:296  0:006  - [05]: Clovy
+4:321  0:025  - [06]: Purple_Swirl
+4:334  0:012  === [ Found config plists ] =====================
+4:334  0:000  - config.plist
+4:334  0:000  === [ GetEarlyUserSettings ] ====================
+4:334  0:000  timeout set to 3
+4:334  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+4:334  0:000  KextsToPatch: 4 requested
+4:334  0:000   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: data len: 8
+4:334  0:000   - [01]: AppleHDA (AppleHDA/Resources/xml>zml) :: BinPatch :: data len: 6
+4:334  0:000   - [02]: AppleHDA (AppleHDA/Resources/xml>zml) :: BinPatch :: data len: 6
+4:334  0:000   - [03]: IOErrorFix (NoLabel) :: BinPatch :: data len: 40
+4:334  0:000  Default theme: tonymacx86
+4:334  0:000  Hiding entries with string Windows
+4:334  0:000  Hiding entries with string BOOTX64.EFI
+4:334  0:000  === [ LoadDrivers ] =============================
+4:346  0:011  Loading FSInject.efi  status=Success
+4:355  0:008  Loading SMCHelper.efi  status=Success
+4:357  0:002  Loading XhciDxe.efi  status=Success
+4:364  0:006   - driver needs connecting
+4:364  0:000  Loading NTFS.efi  status=Success
+4:370  0:005   - driver needs connecting
+4:370  0:000  Loading ApfsDriverLoader.efi  status=Success
+4:370  0:000   - driver needs connecting
+4:370  0:000  Loading AudioDxe.efi  status=Success
+4:376  0:005   - driver needs connecting
+4:376  0:000  Loading AppleImageCodec.efi  status=Success
+4:376  0:000  Loading AppleKeyAggregator.efi  status=Success
+4:385  0:008  Loading AppleUITheme.efi  status=Success
+4:397  0:011  Loading FirmwareVolume.efi  status=Success
+4:397  0:000  Loading GrubNTFS.efi  status=Success
+4:403  0:005   - driver needs connecting
+4:403  0:000  5 drivers needs connecting ...
+4:403  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+4:403  0:000  APFS driver loaded
+8:100  3:696  === [ InitScreen ] ==============================
+8:100  0:000  Console modes reported: 4, available modes:
+8:100  0:000   - [01]: 80x25
+8:100  0:000   - [02]: 80x50
+8:100  0:000   - [03]: 100x31
+8:100  0:000   - [04]: 160x53 (current mode)
+8:100  0:000  SetScreenResolution: 1920x1080 - not found!
+8:100  0:000  SetScreenResolution: 1280x1024 - already set
+8:101  0:001  Using embedded font
+8:102  0:001  === [ GetMacAddress ] ===========================
+8:102  0:000   get legacy LAN MAC, 1 card found
+8:102  0:000  Legacy MAC address of LAN #0= 00:1F:D0:D7:EB:C6:
+8:102  0:000  === [ ScanSPD ] =================================
+8:103  0:000  Scanning SMBus [8086:3A30], mmio: 0xFDFFC004, ioport: 0x500, hostc: 0x1
+8:118  0:015  Slot: 0 Type 19 2048MB 800MHz Vendor=Corsair PartNo=CM2X2048-6400C5 SerialNo=00000000
+8:133  0:015  Slot: 1 Type 19 2048MB 800MHz Vendor=Corsair PartNo=CM2X2048-6400C5 SerialNo=00000000
+8:148  0:015  Slot: 2 Type 19 2048MB 800MHz Vendor=Corsair PartNo=CM2X2048-6400C5 SerialNo=00000000
+8:164  0:015  Slot: 3 Type 19 2048MB 800MHz Vendor=Corsair PartNo=CM2X2048-6400C5 SerialNo=00000000
+8:164  0:000  === [ GetAcpiTablesList ] =======================
+8:169  0:004  Get Acpi Tables List from RSDT:
+8:169  0:000   - [00]: FACP  GBTUACPI len=116
+8:169  0:000   - [01]: HPET  GBTUACPI len=56
+8:169  0:000   - [02]: MCFG  GBTUACPI len=60
+8:169  0:000   - [03]: EUDS   len=1232
+8:169  0:000   - [04]: TAMG  GBT   B0 len=26706
+8:169  0:000   - [05]: APIC  GBTUACPI len=132
+8:169  0:000   - [06]: SSDT  CpuPm len=939
+8:169  0:000  Calibrated TSC Frequency = 2333068103 = 2333MHz
+8:169  0:000  === [ GetUserSettings ] =========================
+8:169  0:000  USB FixOwnership: yes
+8:169  0:000  Dropping 1 tables:
+8:169  0:000   - [00]: Drop table  signature="MATS" (5354414D)
+8:169  0:000  ----
+8:169  0:000           - set table: 5354414D,                0 to drop: no
+8:169  0:000   - final DSDT Fix mask=0000BD55
+8:169  0:000  Using ProductName from config: iMac18,1
+8:170  0:000  Using latest BiosVersion from config
+8:170  0:000  BiosVersion: IM181.88Z.F000.B00.2011032300
+8:170  0:000  BiosReleaseDate: 11/03/2020
+8:170  0:000  Using latest EfiVersion from config: 429.60.3.0.0
+8:170  0:000  Using FirmwareFeatures from config: 0xFD0FF576
+8:170  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF3F
+8:170  0:000  Board-ID set from config as Mac-4B682C642B45593E
+8:170  0:000  BoardType: 0xA
+8:170  0:000  ChassisType: 0xD
+8:170  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+8:192  0:022  === [ Found DSDT tables ] =======================
+8:192  0:000  - DSDT-GA-EP45-UD3R-1.1-F12.aml
+8:192  0:000  === [ InitKextList ] ============================
+8:222  0:029  Added Kext=10.10\AppleALC.kext
+8:227  0:005  Added Kext=10.10\CPUFriend.kext
+8:229  0:001  Added Kext=10.10\Lilu.kext
+8:231  0:001  Added Kext=10.10\RealtekRTL8111.kext
+8:234  0:003  Added Kext=10.10\SMCProcessor.kext
+8:235  0:000  Added Kext=10.10\SMCSuperIO.kext
+8:238  0:003  Added Kext=10.10\VirtualSMC.kext
+8:245  0:006  Added Kext=10.10\WhateverGreen.kext
+8:257  0:012  Added Kext=10.10\AirportBrcmFixup.kext
+8:266  0:008  Added Kext=10.10\BrcmBluetoothInjector.kext
+8:267  0:000  Added Kext=10.10\BrcmFirmwareData.kext
+8:268  0:000  Added Kext=10.10\BrcmFirmwareRepo.kext
+8:276  0:008  Added Kext=10.10\BrcmNonPatchRAM2.kext
+8:285  0:009  Added Kext=10.10\BrcmPatchRAM2.kext
+8:287  0:001  Added Kext=10.10\HibernationFixup.kext
+8:307  0:019  Added Kext=10.10\USBInjectAll.kext
+8:371  0:063  Added Kext=10.11\AppleALC.kext
+8:374  0:003  Added Kext=10.11\Lilu.kext
+8:375  0:001  Added Kext=10.11\RealtekRTL8111.kext
+8:380  0:004  Added Kext=10.11\SMCProcessor.kext
+8:381  0:000  Added Kext=10.11\SMCSuperIO.kext
+8:384  0:002  Added Kext=10.11\VirtualSMC.kext
+8:390  0:005  Added Kext=10.11\WhateverGreen.kext
+8:420  0:030  Added Kext=10.11\AirportBrcmFixup.kext
+8:433  0:013  Added Kext=10.11\BrcmBluetoothInjector.kext
+8:435  0:001  Added Kext=10.11\BrcmFirmwareData.kext
+8:444  0:008  Added Kext=10.11\BrcmFirmwareRepo.kext
+8:455  0:011  Added Kext=10.11\BrcmNonPatchRAM2.kext
+8:466  0:010  Added Kext=10.11\BrcmPatchRAM2.kext
+8:467  0:000  Added Kext=10.11\CPUFriend.kext
+8:467  0:000  Added Kext=10.11\HibernationFixup.kext
+8:488  0:020  Added Kext=10.11\USBInjectAll.kext
+8:541  0:052  Added Kext=10.12\AppleALC.kext
+8:542  0:001  Added Kext=10.12\AirportBrcmFixup.kext
+8:551  0:009  Added Kext=10.12\CPUFriend.kext
+8:552  0:001  Added Kext=10.12\HibernationFixup.kext
+8:560  0:007  Added Kext=10.12\Lilu.kext
+8:560  0:000  Added Kext=10.12\RealtekRTL8111.kext
+8:561  0:000  Added Kext=10.12\SMCProcessor.kext
+8:562  0:000  Added Kext=10.12\SMCSuperIO.kext
+8:590  0:028  Added Kext=10.12\USBInjectAll.kext
+8:592  0:001  Added Kext=10.12\VirtualSMC.kext
+8:593  0:001  Added Kext=10.12\WhateverGreen.kext
+8:608  0:015  Added Kext=10.12\BrcmBluetoothInjector.kext
+8:614  0:005  Added Kext=10.12\BrcmFirmwareData.kext
+8:618  0:003  Added Kext=10.12\BrcmFirmwareRepo.kext
+8:637  0:018  Added Kext=10.12\BrcmNonPatchRAM2.kext
+8:647  0:010  Added Kext=10.12\BrcmPatchRAM2.kext
+8:659  0:011  Added Kext=10.13\AirportBrcmFixup.kext
+8:686  0:026  Added Kext=10.13\AppleALC.kext
+8:699  0:012  Added Kext=10.13\BrcmBluetoothInjector.kext
+8:699  0:000  Added Kext=10.13\BrcmFirmwareData.kext
+8:709  0:009  Added Kext=10.13\BrcmFirmwareRepo.kext
+8:721  0:011  Added Kext=10.13\BrcmNonPatchRAM2.kext
+8:737  0:016  Added Kext=10.13\BrcmPatchRAM2.kext
+8:740  0:002  Added Kext=10.13\CPUFriend.kext
+8:740  0:000  Added Kext=10.13\HibernationFixup.kext
+8:741  0:000  Added Kext=10.13\Lilu.kext
+8:742  0:001  Added Kext=10.13\RealtekRTL8111.kext
+8:743  0:000  Added Kext=10.13\SMCProcessor.kext
+8:755  0:011  Added Kext=10.13\SMCSuperIO.kext
+8:785  0:030  Added Kext=10.13\USBInjectAll.kext
+8:794  0:009  Added Kext=10.13\VirtualSMC.kext
+8:794  0:000  Added Kext=10.13\WhateverGreen.kext
+8:806  0:011  Added Kext=10.14\AirportBrcmFixup.kext
+8:832  0:026  Added Kext=10.14\AppleALC.kext
+8:845  0:013  Added Kext=10.14\BrcmBluetoothInjector.kext
+8:846  0:000  Added Kext=10.14\BrcmFirmwareData.kext
+8:855  0:008  Added Kext=10.14\BrcmFirmwareRepo.kext
+8:858  0:003  Added Kext=10.14\BrcmNonPatchRAM2.kext
+8:869  0:010  Added Kext=10.14\BrcmPatchRAM2.kext
+8:870  0:000  Added Kext=10.14\CPUFriend.kext
+8:870  0:000  Added Kext=10.14\HibernationFixup.kext
+8:871  0:000  Added Kext=10.14\Lilu.kext
+8:872  0:001  Added Kext=10.14\RealtekRTL8111.kext
+8:883  0:010  Added Kext=10.14\SMCProcessor.kext
+8:884  0:000  Added Kext=10.14\SMCSuperIO.kext
+8:905  0:021  Added Kext=10.14\USBInjectAll.kext
+8:907  0:001  Added Kext=10.14\VirtualSMC.kext
+8:908  0:001  Added Kext=10.14\WhateverGreen.kext
+8:914  0:005  Added Kext=10.14\telemetrap.kext
+8:947  0:033  Added Kext=10.6\AirportBrcmFixup.kext
+8:985  0:037  Added Kext=10.6\AppleALC.kext
+8:993  0:007  Added Kext=10.6\BrcmBluetoothInjector.kext
+8:993  0:000  Added Kext=10.6\BrcmFirmwareData.kext
+8:999  0:006  Added Kext=10.6\BrcmFirmwareRepo.kext
+9:017  0:018  Added Kext=10.6\BrcmNonPatchRAM2.kext
+9:028  0:010  Added Kext=10.6\BrcmPatchRAM2.kext
+9:030  0:001  Added Kext=10.6\CPUFriend.kext
+9:030  0:000  Added Kext=10.6\HibernationFixup.kext
+9:031  0:000  Added Kext=10.6\Lilu.kext
+9:032  0:000  Added Kext=10.6\RealtekRTL8111.kext
+9:033  0:000  Added Kext=10.6\SMCProcessor.kext
+9:033  0:000  Added Kext=10.6\SMCSuperIO.kext
+9:061  0:028  Added Kext=10.6\USBInjectAll.kext
+9:063  0:001  Added Kext=10.6\VirtualSMC.kext
+9:064  0:000  Added Kext=10.6\WhateverGreen.kext
+9:065  0:001  Added Kext=10.7\AirportBrcmFixup.kext
+9:099  0:034  Added Kext=10.7\AppleALC.kext
+9:107  0:007  Added Kext=10.7\BrcmBluetoothInjector.kext
+9:108  0:000  Added Kext=10.7\BrcmFirmwareData.kext
+9:108  0:000  Added Kext=10.7\BrcmFirmwareRepo.kext
+9:123  0:014  Added Kext=10.7\BrcmNonPatchRAM2.kext
+9:133  0:010  Added Kext=10.7\BrcmPatchRAM2.kext
+9:138  0:004  Added Kext=10.7\CPUFriend.kext
+9:139  0:001  Added Kext=10.7\HibernationFixup.kext
+9:144  0:005  Added Kext=10.7\Lilu.kext
+9:145  0:000  Added Kext=10.7\RealtekRTL8111.kext
+9:146  0:000  Added Kext=10.7\SMCProcessor.kext
+9:147  0:000  Added Kext=10.7\SMCSuperIO.kext
+9:169  0:022  Added Kext=10.7\USBInjectAll.kext
+9:171  0:001  Added Kext=10.7\VirtualSMC.kext
+9:172  0:000  Added Kext=10.7\WhateverGreen.kext
+9:178  0:006  Added Kext=10.8\AirportBrcmFixup.kext
+9:206  0:028  Added Kext=10.8\AppleALC.kext
+9:221  0:014  Added Kext=10.8\BrcmBluetoothInjector.kext
+9:230  0:009  Added Kext=10.8\BrcmFirmwareData.kext
+9:230  0:000  Added Kext=10.8\BrcmFirmwareRepo.kext
+9:236  0:005  Added Kext=10.8\BrcmNonPatchRAM2.kext
+9:247  0:010  Added Kext=10.8\BrcmPatchRAM2.kext
+9:247  0:000  Added Kext=10.8\CPUFriend.kext
+9:249  0:001  Added Kext=10.8\HibernationFixup.kext
+9:249  0:000  Added Kext=10.8\Lilu.kext
+9:250  0:000  Added Kext=10.8\RealtekRTL8111.kext
+9:252  0:001  Added Kext=10.8\SMCProcessor.kext
+9:254  0:001  Added Kext=10.8\SMCSuperIO.kext
+9:275  0:020  Added Kext=10.8\USBInjectAll.kext
+9:276  0:001  Added Kext=10.8\VirtualSMC.kext
+9:277  0:000  Added Kext=10.8\WhateverGreen.kext
+9:281  0:003  Added Kext=10.9\AirportBrcmFixup.kext
+9:312  0:031  Added Kext=10.9\AppleALC.kext
+9:326  0:013  Added Kext=10.9\BrcmBluetoothInjector.kext
+9:326  0:000  Added Kext=10.9\BrcmFirmwareData.kext
+9:337  0:010  Added Kext=10.9\BrcmFirmwareRepo.kext
+9:349  0:011  Added Kext=10.9\BrcmNonPatchRAM2.kext
+9:359  0:010  Added Kext=10.9\BrcmPatchRAM2.kext
+9:360  0:001  Added Kext=10.9\CPUFriend.kext
+9:366  0:005  Added Kext=10.9\HibernationFixup.kext
+9:366  0:000  Added Kext=10.9\Lilu.kext
+9:367  0:000  Added Kext=10.9\RealtekRTL8111.kext
+9:368  0:000  Added Kext=10.9\SMCProcessor.kext
+9:369  0:001  Added Kext=10.9\SMCSuperIO.kext
+9:395  0:026  Added Kext=10.9\USBInjectAll.kext
+9:397  0:001  Added Kext=10.9\VirtualSMC.kext
+9:398  0:001  Added Kext=10.9\WhateverGreen.kext
+9:437  0:038  Added Kext=Other\AppleALC.kext
+9:459  0:021  Added Kext=Other\BrcmBluetoothInjector.kext
+9:468  0:009  Added Kext=Other\HibernationFixup.kext
+9:477  0:008  Added Kext=Other\Lilu.kext
+9:478  0:001  Added Kext=Other\RealtekRTL8111.kext
+9:482  0:003  Added Kext=Other\SMCProcessor.kext
+9:483  0:000  Added Kext=Other\SMCSuperIO.kext
+9:485  0:002  Added Kext=Other\VirtualSMC.kext
+9:485  0:000  Added Kext=Other\WhateverGreen.kext
+9:495  0:009  Added Kext=Other\CPUFriend.kext
+9:495  0:000  Added Kext=Other\AirportBrcmFixup.kext
+9:525  0:030  Added Kext=Other\USBInjectAll.kext
+9:526  0:000  Added Kext=Other\BrcmFirmwareData.kext
+9:535  0:008  Added Kext=Other\BrcmFirmwareRepo.kext
+9:554  0:019  Added Kext=10.15\AirportBrcmFixup.kext
+9:581  0:026  Added Kext=10.15\AppleALC.kext
+9:590  0:009  Added Kext=10.15\BrcmBluetoothInjector.kext
+9:591  0:001  Added Kext=10.15\BrcmFirmwareData.kext
+9:600  0:009  Added Kext=10.15\BrcmFirmwareRepo.kext
+9:611  0:011  Added Kext=10.15\BrcmNonPatchRAM2.kext
+9:622  0:010  Added Kext=10.15\BrcmPatchRAM2.kext
+9:623  0:000  Added Kext=10.15\CPUFriend.kext
+9:624  0:000  Added Kext=10.15\HibernationFixup.kext
+9:624  0:000  Added Kext=10.15\Lilu.kext
+9:625  0:000  Added Kext=10.15\RealtekRTL8111.kext
+9:636  0:010  Added Kext=10.15\SMCProcessor.kext
+9:637  0:001  Added Kext=10.15\SMCSuperIO.kext
+9:658  0:020  Added Kext=10.15\USBInjectAll.kext
+9:660  0:001  Added Kext=10.15\VirtualSMC.kext
+9:661  0:001  Added Kext=10.15\WhateverGreen.kext
+9:665  0:003  Added Kext=10.15\telemetrap.kext
+9:665  0:000  === [ ScanVolumes ] =============================
+9:665  0:000  Found 7 volumes with blockIO
+9:665  0:000  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)
+9:668  0:002          Result of bootcode detection: bootable unknown (legacy)
+9:668  0:000  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x0,0x0)
+9:668  0:000  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,9C070FD6-E9B4-4A1A-BFB9-85E3A8F1D637,0x28,0x64000)
+9:668  0:000          Result of bootcode detection: bootable unknown (legacy)
+9:676  0:008            label : EFI
+9:676  0:000          This is SelfVolume !!
+9:676  0:000  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,56AFC2DD-1336-4C58-AD18-5DC62F3A1324,0x64028,0x2E8DDC28)
+9:698  0:021            label : Big Mac
+9:698  0:000  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,C4FD468A-6B85-49CB-ABCF-91D58FAED009,0x2E941C50,0x135F20)
+9:729  0:031            label : Recovery HD
+9:729  0:000  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,3A199E90-B08F-4012-A3C0-2762541CA886,0x2EA77B70,0xB7D7D38)
+9:766  0:037            label : Small Mac
+9:766  0:000  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,60DFA536-2455-41EB-A59E-0243FF80A731,0x3A24F8A8,0x135F20)
+9:784  0:017            label : Recovery HD
+9:784  0:000  Searching volumes for latest nvram.plist ...
+9:803  0:018  Loading nvram.plist from Vol 'EFI' -  begin load gNvramDict=0x0
+9:803  0:000   loaded, size=3064
+9:803  0:000  loaded Status=Success
+9:803  0:000  === [ PutNvramPlistToRtVars ] ===================
+9:804  0:000  found 1 handles with audio
+9:804  0:000  No AudioIoDevice stored
+9:804  0:000  no stored audio parameters
+9:804  0:000  Found Audio Device Realtek ALC889A (LineOut) at index 0
+9:804  0:000  Found Audio Device Realtek ALC889A (LineOut) at index 1
+9:804  0:000  Found Audio Device Realtek ALC889A (LineOut) at index 2
+9:804  0:000  Found Audio Device Realtek ALC889A (LineOut) at index 3
+9:804  0:000  Found Audio Device Realtek ALC889A (Headphones) at index 4
+9:804  0:000  Found Audio Device Realtek ALC889A (SPDIF) at index 5
+9:804  0:000  === [ InitXTheme ] ==============================
+9:804  0:000  use Daylight theme
+9:813  0:009  Using theme 'tonymacx86' (tonymacx86)
+9:813  0:000  chosen theme tonymacx86
+10:049  0:235  sound play end with status=Device Error
+10:051  0:002  theme inited
+10:051  0:000  Chosen theme tonymacx86
+10:051  0:000  after NVRAM boot-args=dart=0
+10:051  0:000  Scanning legacy ...
+10:051  0:000  === [ Dump SMC keys from NVRAM ] ================
+10:051  0:000  found AppleSMC protocol
+10:051  0:000  Registered 16 SMC keys
+10:051  0:000  === [ ScanLoader ] ==============================
+10:051  0:000  - [02]: 'EFI'
+10:057  0:006      AddLoaderEntry for Volume Name=EFI, idx=0
+10:057  0:000      IconName=unknown comma=-1 size=7
+10:057  0:000      Full=unknown
+10:058  0:000      Show badge as OSImage.
+10:058  0:000      Loader entry created for 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(1,GPT,9C070FD6-E9B4-4A1A-BFB9-85E3A8F1D637,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+10:058  0:000       hiding entry: \EFI\BOOT\BOOTX64.efi
+10:058  0:000  - [03]: 'Big Mac'
+10:090  0:032      AddLoaderEntry for Volume Name=Big Mac, idx=1
+10:109  0:018      Check if volume Is Hibernated:
+10:109  0:000      Check sleep image 'by signature':
+10:162  0:053      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+10:162  0:000      using default sleep image name = \private\var\vm\sleepimage
+10:187  0:025      sleepimage not found -> Not Found
+10:187  0:000      hibernated: no - sign
+10:187  0:000      IconName=sierra,mac comma=6 size=10
+10:187  0:000      first=os_sierra
+10:188  0:000      Show badge as OSImage.
+10:188  0:000      Loader entry created for 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,56AFC2DD-1336-4C58-AD18-5DC62F3A1324,0x64028,0x2E8DDC28)\System\Library\CoreServices\boot.efi'
+10:195  0:007  - [04]: 'Recovery HD'
+10:212  0:016      AddLoaderEntry for Volume Name=Recovery HD, idx=2
+10:223  0:010      IconName=sierra,mac comma=6 size=10
+10:223  0:000      first=os_sierra
+10:223  0:000      Show badge as OSImage.
+10:223  0:000      Loader entry created for 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(3,GPT,C4FD468A-6B85-49CB-ABCF-91D58FAED009,0x2E941C50,0x135F20)\com.apple.recovery.boot\boot.efi'
+10:223  0:000  - [05]: 'Small Mac'
+10:252  0:029      AddLoaderEntry for Volume Name=Small Mac, idx=3
+10:260  0:008      Check if volume Is Hibernated:
+10:260  0:000      Check sleep image 'by signature':
+10:299  0:039      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+10:300  0:000      SleepImage name from pref: ImageVolume = 'Small Mac', ImageName = '\private\var\vm\sleepimage'
+10:327  0:027      sleepimage not found -> Not Found
+10:327  0:000      hibernated: no - sign
+10:327  0:000      IconName=mav,mac comma=3 size=7
+10:327  0:000      first=os_mav
+10:327  0:000      Show badge as OSImage.
+10:327  0:000      Loader entry created for 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(4,GPT,3A199E90-B08F-4012-A3C0-2762541CA886,0x2EA77B70,0xB7D7D38)\System\Library\CoreServices\boot.efi'
+10:328  0:000  - [06]: 'Recovery HD'
+10:342  0:014      AddLoaderEntry for Volume Name=Recovery HD, idx=4
+10:354  0:011      IconName=cougar,mac comma=6 size=10
+10:354  0:000      first=os_cougar
+10:354  0:000      Show badge as OSImage.
+10:354  0:000      Loader entry created for 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(5,GPT,60DFA536-2455-41EB-A59E-0243FF80A731,0x3A24F8A8,0x135F20)\com.apple.recovery.boot\boot.efi'
+10:354  0:000  === [ AddCustomTool ] ===========================
+10:354  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+10:354  0:000  Default boot entry not found
+10:354  0:000  BannerPlace at Clear Screen [570,219]
+10:419  0:064  AnimeRun=0
+10:473  0:053  GUI ready
+2070:724  2060:250  BootVariable of the entry is empty
+2070:724  0:000  === [ StartLoader ] =============================
+2070:724  0:000  Starting PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0x0,0x0)\HD(2,GPT,56AFC2DD-1336-4C58-AD18-5DC62F3A1324,0x64028,0x2E8DDC28)\System\Library\CoreServices\boot.efi
+2070:724  0:000  Finally: ExternalClock=334MHz BusSpeed=333296kHz CPUFreq=2333MHz PIS: hw.busfrequency=1336000000Hz
+2070:724  0:000  Beginning OC
+2070:724  0:000  OCST: Missing vault data, ignoring...
+2070:769  0:045  config-oc.plist isn't use at all
+2070:777  0:008  AddKextsInArray from Other
+2070:777  0:000  ->Extra kext: Other\AppleALC.kext (v.1.5.6)
+2070:777  0:000  ->Extra kext: Other\BrcmBluetoothInjector.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: Other\HibernationFixup.kext (v.1.3.9)
+2070:777  0:000  ->Extra kext: Other\Lilu.kext (v.1.5.0)
+2070:777  0:000  ->Extra kext: Other\RealtekRTL8111.kext (v.2.2.1)
+2070:777  0:000  ->Extra kext: Other\SMCProcessor.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: Other\SMCSuperIO.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: Other\VirtualSMC.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: Other\WhateverGreen.kext (v.1.4.6)
+2070:777  0:000  ->Extra kext: Other\CPUFriend.kext (v.1.2.3)
+2070:777  0:000  ->Extra kext: Other\AirportBrcmFixup.kext (v.2.1.2)
+2070:777  0:000      |-- PlugIn kext: Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext (v.1.0)
+2070:777  0:000      |-- PlugIn kext: Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext (v.1.0)
+2070:777  0:000  ->Extra kext: Other\USBInjectAll.kext (v.0.7.1)
+2070:777  0:000  ->Extra kext: Other\BrcmFirmwareData.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: Other\BrcmFirmwareRepo.kext (v.2.5.5)
+2070:777  0:000  AddKextsInArray from Off
+2070:777  0:000  AddKextsInArray from 10
+2070:777  0:000  AddKextsInArray from 10_normal
+2070:777  0:000  AddKextsInArray from 10.12
+2070:777  0:000  ->Extra kext: 10.12\AppleALC.kext (v.1.5.6)
+2070:777  0:000  ->Extra kext: 10.12\AirportBrcmFixup.kext (v.2.1.2)
+2070:777  0:000      |-- PlugIn kext: 10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext (v.1.0)
+2070:777  0:000      |-- PlugIn kext: 10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext (v.1.0)
+2070:777  0:000  ->Extra kext: 10.12\CPUFriend.kext (v.1.2.3)
+2070:777  0:000  ->Extra kext: 10.12\HibernationFixup.kext (v.1.3.9)
+2070:777  0:000  ->Extra kext: 10.12\Lilu.kext (v.1.5.0)
+2070:777  0:000  ->Extra kext: 10.12\RealtekRTL8111.kext (v.2.2.1)
+2070:777  0:000  ->Extra kext: 10.12\SMCProcessor.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: 10.12\SMCSuperIO.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: 10.12\USBInjectAll.kext (v.0.7.1)
+2070:777  0:000  ->Extra kext: 10.12\VirtualSMC.kext (v.1.1.9)
+2070:777  0:000  ->Extra kext: 10.12\WhateverGreen.kext (v.1.4.6)
+2070:777  0:000  ->Extra kext: 10.12\BrcmBluetoothInjector.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: 10.12\BrcmFirmwareData.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: 10.12\BrcmFirmwareRepo.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: 10.12\BrcmNonPatchRAM2.kext (v.2.5.5)
+2070:777  0:000  ->Extra kext: 10.12\BrcmPatchRAM2.kext (v.2.5.5)
+2070:777  0:000  AddKextsInArray from 10.12_normal
+2070:777  0:000  AddKextsInArray from 10.12.6
+2070:777  0:000  AddKextsInArray from 10.12.6_normal
+2070:778  0:000  Bridge kext to OC : Path=Lilu.kext
+2070:778  0:000  info plist path: Kexts\Other\Lilu.kext\Contents\Info.plist
+2070:784  0:006  assign executable as 'Contents\MacOS\Lilu'
+2070:784  0:000  Bridge kext to OC : Path=VirtualSMC.kext
+2070:784  0:000  info plist path: Kexts\Other\VirtualSMC.kext\Contents\Info.plist
+2070:786  0:001  assign executable as 'Contents\MacOS\VirtualSMC'
+2070:786  0:000  Bridge kext to OC : Path=WhateverGreen.kext
+2070:786  0:000  info plist path: Kexts\Other\WhateverGreen.kext\Contents\Info.plist
+2070:793  0:007  assign executable as 'Contents\MacOS\WhateverGreen'
+2070:793  0:000  Bridge kext to OC : Path=AppleALC.kext
+2070:793  0:000  info plist path: Kexts\Other\AppleALC.kext\Contents\Info.plist
+2070:825  0:032  assign executable as 'Contents\MacOS\AppleALC'
+2070:825  0:000  Bridge kext to OC : Path=SMCProcessor.kext
+2070:825  0:000  info plist path: Kexts\Other\SMCProcessor.kext\Contents\Info.plist
+2070:826  0:000  assign executable as 'Contents\MacOS\SMCProcessor'
+2070:826  0:000  Bridge kext to OC : Path=SMCSuperIO.kext
+2070:826  0:000  info plist path: Kexts\Other\SMCSuperIO.kext\Contents\Info.plist
+2070:831  0:005  assign executable as 'Contents\MacOS\SMCSuperIO'
+2070:831  0:000  Bridge kext to OC : Path=BrcmFirmwareData.kext
+2070:831  0:000  info plist path: Kexts\Other\BrcmFirmwareData.kext\Contents\Info.plist
+2070:835  0:003  assign executable as 'Contents\MacOS\BrcmFirmwareData'
+2070:835  0:000  Bridge kext to OC : Path=BrcmPatchRAM2.kext
+2070:846  0:010  info plist path: Kexts\10.12\BrcmPatchRAM2.kext\Contents\Info.plist
+2070:855  0:008  assign executable as 'Contents\MacOS\BrcmPatchRAM2'
+2070:855  0:000  Bridge kext to OC : Path=BrcmBluetoothInjector.kext
+2070:855  0:000  info plist path: Kexts\Other\BrcmBluetoothInjector.kext\Contents\Info.plist
+2070:856  0:001  Bridge kext to OC : Path=HibernationFixup.kext
+2070:856  0:000  info plist path: Kexts\Other\HibernationFixup.kext\Contents\Info.plist
+2070:857  0:000  assign executable as 'Contents\MacOS\HibernationFixup'
+2070:857  0:000  Bridge kext to OC : Path=RealtekRTL8111.kext
+2070:857  0:000  info plist path: Kexts\Other\RealtekRTL8111.kext\Contents\Info.plist
+2070:857  0:000  assign executable as 'Contents\MacOS\RealtekRTL8111'
+2070:857  0:000  Bridge kext to OC : Path=CPUFriend.kext
+2070:857  0:000  info plist path: Kexts\Other\CPUFriend.kext\Contents\Info.plist
+2070:860  0:002  assign executable as 'Contents\MacOS\CPUFriend'
+2070:860  0:000  Bridge kext to OC : Path=AirportBrcmFixup.kext
+2070:860  0:000  info plist path: Kexts\Other\AirportBrcmFixup.kext\Contents\Info.plist
+2070:860  0:000  assign executable as 'Contents\MacOS\AirportBrcmFixup'
+2070:860  0:000  Bridge kext to OC : Path=AirPortBrcm4360_Injector.kext
+2070:860  0:000  info plist path: Kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext\Contents\Info.plist
+2070:860  0:000  Bridge kext to OC : Path=AirPortBrcmNIC_Injector.kext
+2070:860  0:000  info plist path: Kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext\Contents\Info.plist
+2070:860  0:000  Bridge kext to OC : Path=USBInjectAll.kext
+2070:860  0:000  info plist path: Kexts\Other\USBInjectAll.kext\Contents\Info.plist
+2070:868  0:007  assign executable as 'Contents\MacOS\USBInjectAll'
+2070:868  0:000  Bridge kext to OC : Path=BrcmFirmwareRepo.kext
+2070:868  0:000  info plist path: Kexts\Other\BrcmFirmwareRepo.kext\Contents\Info.plist
+2070:875  0:007  assign executable as 'Contents\MacOS\BrcmFirmwareRepo'
+2070:875  0:000  Bridge kext to OC : Path=AppleALC.kext
+2070:875  0:000  info plist path: Kexts\10.12\AppleALC.kext\Contents\Info.plist
+2070:897  0:022  assign executable as 'Contents\MacOS\AppleALC'
+2070:897  0:000  Bridge kext to OC : Path=AirportBrcmFixup.kext
+2070:898  0:000  info plist path: Kexts\10.12\AirportBrcmFixup.kext\Contents\Info.plist
+2070:898  0:000  assign executable as 'Contents\MacOS\AirportBrcmFixup'
+2070:898  0:000  Bridge kext to OC : Path=AirPortBrcm4360_Injector.kext
+2070:898  0:000  info plist path: Kexts\10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext\Contents\Info.plist
+2070:898  0:000  Bridge kext to OC : Path=AirPortBrcmNIC_Injector.kext
+2070:898  0:000  info plist path: Kexts\10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext\Contents\Info.plist
+2070:898  0:000  Bridge kext to OC : Path=CPUFriend.kext
+2070:898  0:000  info plist path: Kexts\10.12\CPUFriend.kext\Contents\Info.plist
+2070:899  0:000  assign executable as 'Contents\MacOS\CPUFriend'
+2070:899  0:000  Bridge kext to OC : Path=HibernationFixup.kext
+2070:899  0:000  info plist path: Kexts\10.12\HibernationFixup.kext\Contents\Info.plist
+2070:900  0:000  assign executable as 'Contents\MacOS\HibernationFixup'
+2070:900  0:000  Bridge kext to OC : Path=Lilu.kext
+2070:900  0:000  info plist path: Kexts\10.12\Lilu.kext\Contents\Info.plist
+2070:900  0:000  assign executable as 'Contents\MacOS\Lilu'
+2070:900  0:000  Bridge kext to OC : Path=RealtekRTL8111.kext
+2070:900  0:000  info plist path: Kexts\10.12\RealtekRTL8111.kext\Contents\Info.plist
+2070:900  0:000  assign executable as 'Contents\MacOS\RealtekRTL8111'
+2070:900  0:000  Bridge kext to OC : Path=SMCProcessor.kext
+2070:900  0:000  info plist path: Kexts\10.12\SMCProcessor.kext\Contents\Info.plist
+2070:901  0:000  assign executable as 'Contents\MacOS\SMCProcessor'
+2070:901  0:000  Bridge kext to OC : Path=SMCSuperIO.kext
+2070:901  0:000  info plist path: Kexts\10.12\SMCSuperIO.kext\Contents\Info.plist
+2070:901  0:000  assign executable as 'Contents\MacOS\SMCSuperIO'
+2070:901  0:000  Bridge kext to OC : Path=USBInjectAll.kext
+2070:901  0:000  info plist path: Kexts\10.12\USBInjectAll.kext\Contents\Info.plist
+2070:916  0:015  assign executable as 'Contents\MacOS\USBInjectAll'
+2070:916  0:000  Bridge kext to OC : Path=VirtualSMC.kext
+2070:916  0:000  info plist path: Kexts\10.12\VirtualSMC.kext\Contents\Info.plist
+2070:917  0:000  assign executable as 'Contents\MacOS\VirtualSMC'
+2070:917  0:000  Bridge kext to OC : Path=WhateverGreen.kext
+2070:917  0:000  info plist path: Kexts\10.12\WhateverGreen.kext\Contents\Info.plist
+2070:917  0:000  assign executable as 'Contents\MacOS\WhateverGreen'
+2070:917  0:000  Bridge kext to OC : Path=BrcmBluetoothInjector.kext
+2070:917  0:000  info plist path: Kexts\10.12\BrcmBluetoothInjector.kext\Contents\Info.plist
+2070:927  0:009  Bridge kext to OC : Path=BrcmFirmwareData.kext
+2070:927  0:000  info plist path: Kexts\10.12\BrcmFirmwareData.kext\Contents\Info.plist
+2070:928  0:000  assign executable as 'Contents\MacOS\BrcmFirmwareData'
+2070:928  0:000  Bridge kext to OC : Path=BrcmFirmwareRepo.kext
+2070:928  0:000  info plist path: Kexts\10.12\BrcmFirmwareRepo.kext\Contents\Info.plist
+2070:934  0:005  assign executable as 'Contents\MacOS\BrcmFirmwareRepo'
+2070:934  0:000  Bridge kext to OC : Path=BrcmNonPatchRAM2.kext
+2070:934  0:000  info plist path: Kexts\10.12\BrcmNonPatchRAM2.kext\Contents\Info.plist
+2070:953  0:018  Load OpenRuntime.efi : Status Not Found
+2070:953  0:000  Start OpenRuntime.efi : Status Invalid Parameter
+2070:953  0:000  OC: OcMiscEarlyInit...
+2070:961  0:007  OC: Watchdog status is 1
+2070:963  0:002  OC: OpenCore DBG-061-2021-01-07 is loading in Optional mode (0/0)...
+2070:966  0:002  OC: Boot timestamp - 2021.01.14 19:42:29
+2070:968  0:002  OCCPU: Found Intel(R) Core(TM)2 Quad CPU    Q8200  @ 2.33GHz
+2070:971  0:002  OCCPU: Signature 1067A Stepping A Model 17 Family 6 Type 0 ExtModel 1 ExtFamily 0 uCode A0E
+2070:973  0:002  OCCPU: EIST CFG Lock 0
+2070:976  0:002  OCCPU: Ratio Min 0 Max 7 Current 0 Turbo 0 0 0 0
+2071:080  0:104  TscFrequency 2333070981
+2071:082  0:002  OCCPU: Detected Apple Processor Type: 04 -> 0402
+2071:085  0:002  OCCPU: CPUFrequencyFromTSC  2333070981Hz  2333MHz
+2071:087  0:002  OCCPU: CPUFrequency  2333070981Hz  2333MHz
+2071:090  0:002  OCCPU: FSBFrequency   333295854Hz   333MHz
+2071:092  0:002  OCCPU: Pkg 0 Cores 4 Threads 4
+2071:095  0:002  OC: OcLoadNvramSupport...
+2071:097  0:002  OC: Current version is DBG-061-2021-01-07
+2071:100  0:002  OC: OcMiscMiddleInit...
+2071:105  0:004  OC: LoadHandle 0 with BootProtect in  mode - Unsupported
+2071:107  0:002  OC: OcLoadUefiSupport...
+2071:110  0:002  OcAppleEventInstallProtocol
+2071:112  0:002  OcOSInfoInstallProtocol
+2071:115  0:002  OCRTC: OcAppleRtcRamInstallProtocol
+2071:117  0:002  OCRTC: Wake log is 0xEA 0x77  100 0xB4
+2071:120  0:002  OcAppleFbInfoInstallProtocol
+2071:122  0:002  OC: Loading Apple Secure Boot with Disabled (level 0)
+2071:124  0:002  OCABC: RTDFRG 0 DEVMMIO 0 NOSU 0 NOVRWR 0 NOSB 0 NOHBMAP 0 SMSLIDE 0 WRUNPROT 0
+2071:128  0:003  OCABC: FEXITBS 0 PRMRG 0 CSLIDE 0 MSLIDE 0 PRSRV 0 RBMAP 0 VMAP 0 APPLOS 0 RTPERMS 0
+2071:131  0:002  OCABC: Awaiting rendezvous with OpenRuntime r11
+2071:133  0:002  OC: RBVR 0 DDBR 0
+2071:136  0:002  OC: Got 0 drivers
+2071:138  0:002  OCC: GOP exists on ConsoleOutHandle and has 4 modes
+2071:141  0:002  OC: Requested resolution is 1920x1080@0 (max: 0) from 1920x1080
+2071:143  0:002  OCC: Requesting 1920x1080@0 (max: 0) resolution, curr 3, total 4
+2071:147  0:004  OCC: Mode 0 - 640x480:1
+2071:150  0:002  OCC: Mode 1 - 800x600:1
+2071:152  0:002  OCC: Mode 2 - 1024x768:1
+2071:155  0:002  OCC: Mode 3 - 1280x1024:1
+2071:157  0:002  OCC: No compatible mode for 1920x1080@0 (max: 0) resolution
+2071:160  0:002  OC: Changed resolution to 1920x1080@0 (max: 0) from 1920x1080 - Not Found
+2071:162  0:002  OCC: Using builtin text renderer with 1 scale
+2071:203  0:040  OCC: Install console control (DDF6DB90/0/0), current - Success
+2071:214  0:010  OCC: Setup ASCII Output - Success
+2071:218  0:004  OC: Requested console mode is 0x0 (max: 0) from 
+2071:221  0:002  OC: Requested not to use audio
+2071:223  0:002  OC: OcMiscLateInit...
+2071:226  0:002  OC: Invalid HibernateMode: 
+2071:228  0:002  OC: Translated HibernateMode  to 0
+2071:231  0:002  OC: Hibernation detection status is Not Found
+2071:233  0:002  OC: Panic log does not exist
+2071:236  0:002  OC: OcLoadKernelSupport...
+2071:238  0:002  OC: All green, starting boot management...
+2071:241  0:002  DevicePath = PcieRoot(0x0)/Pci(0x1F,0x2)/Sata(0x0,0x0,0x0)/HD(2,GPT,56AFC2DD-1336-4C58-AD18-5DC62F3A1324,0x64028,0x2E8DDC28)/\System\Library\CoreServices\boot.efi
+2071:285  0:044  OCB: Arch filtering DB0B2018(571960)->DB0B2018(571960) caps 4 - Success
+2071:327  0:042  GetOSVersion: 10.12.6 (16G2136)
+2071:327  0:000  Filtering KextPatches:
+2071:327  0:000   - [00]: AppleAHCIPort (External icons patch) :: BinPatch :: [OS: 10.12.6 | MatchOS: All | MatchBuild: All] ==> allowed
+2071:327  0:000   - [01]: AppleHDA (AppleHDA/Resources/xml>zml) :: BinPatch :: [OS: 10.12.6 | MatchOS: All | MatchBuild: All] ==> allowed
+2071:327  0:000   - [02]: AppleHDA (AppleHDA/Resources/xml>zml) :: BinPatch :: [OS: 10.12.6 | MatchOS: All | MatchBuild: All] ==> allowed
+2071:327  0:000   - [03]: IOErrorFix (NoLabel) :: BinPatch :: [OS: 10.12.6 | MatchOS: All | MatchBuild: All] ==> allowed
+2071:327  0:000  Will not patch boot.efi
+2071:327  0:000  Bridge AppleAHCIPort patch to OC : AppleAHCIPort (External icons patch)
+2071:327  0:000  Bridge AppleHDA patch to OC : AppleHDA (AppleHDA/Resources/xml>zml)
+2071:327  0:000  Bridge AppleHDA patch to OC : AppleHDA (AppleHDA/Resources/xml>zml)
+2071:327  0:000  Bridge IOErrorFix patch to OC : IOErrorFix (NoLabel)
+2071:327  0:000  === [ PatchSmbios ] =============================
+2071:327  0:000  insert table 9 for dev 0:0
+2071:327  0:000  insert table 9 for dev 0:0
+2071:327  0:000  insert table 9 for dev 7:0
+2071:328  0:000  Trusting SMBIOS...
+2071:328  0:000  Channels: 2
+2071:328  0:000  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+2071:328  0:000  trusted SMBIOS data:
+2071:328  0:000  SmbiosTable.Type17->Vendor =  
+2071:328  0:000  SmbiosTable.Type17->SerialNumber =  
+2071:328  0:000  SmbiosTable.Type17->PartNumber =  
+2071:328  0:000   partNum unknown
+2071:328  0:000  SPD data in use:
+2071:328  0:000  SmbiosTable.Type17->Vendor = Corsair
+2071:328  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+2071:328  0:000  SmbiosTable.Type17->PartNumber = CM2X2048-6400C5
+2071:328  0:000  SMBIOS Type 17 Index = 0 => 0 0:
+2071:328  0:000  BANK 0 DIMM0 800MHz 2048MB(Ext:810372425MB)
+2071:328  0:000  trusted SMBIOS data:
+2071:328  0:000  SmbiosTable.Type17->Vendor =  
+2071:328  0:000  SmbiosTable.Type17->SerialNumber =  
+2071:328  0:000  SmbiosTable.Type17->PartNumber =  
+2071:328  0:000   partNum unknown
+2071:328  0:000  SPD data in use:
+2071:328  0:000  SmbiosTable.Type17->Vendor = Corsair
+2071:328  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+2071:328  0:000  SmbiosTable.Type17->PartNumber = CM2X2048-6400C5
+2071:328  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+2071:328  0:000  BANK 1 DIMM0 800MHz 2048MB(Ext:810372425MB)
+2071:328  0:000  trusted SMBIOS data:
+2071:328  0:000  SmbiosTable.Type17->Vendor =  
+2071:328  0:000  SmbiosTable.Type17->SerialNumber =  
+2071:328  0:000  SmbiosTable.Type17->PartNumber =  
+2071:328  0:000   partNum unknown
+2071:328  0:000  SPD data in use:
+2071:328  0:000  SmbiosTable.Type17->Vendor = Corsair
+2071:328  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+2071:328  0:000  SmbiosTable.Type17->PartNumber = CM2X2048-6400C5
+2071:328  0:000  SMBIOS Type 17 Index = 2 => 1 1:
+2071:328  0:000  BANK 0 DIMM1 800MHz 2048MB(Ext:827149641MB)
+2071:328  0:000  trusted SMBIOS data:
+2071:328  0:000  SmbiosTable.Type17->Vendor =  
+2071:328  0:000  SmbiosTable.Type17->SerialNumber =  
+2071:328  0:000  SmbiosTable.Type17->PartNumber =  
+2071:328  0:000   partNum unknown
+2071:328  0:000  SPD data in use:
+2071:328  0:000  SmbiosTable.Type17->Vendor = Corsair
+2071:328  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+2071:328  0:000  SmbiosTable.Type17->PartNumber = CM2X2048-6400C5
+2071:328  0:000  SMBIOS Type 17 Index = 3 => 3 3:
+2071:328  0:000  BANK 1 DIMM1 800MHz 2048MB(Ext:827149641MB)
+2071:328  0:000  mTotalSystemMemory = 8192
+2071:328  0:000  NumberOfMemoryDevices = 4
+2071:328  0:000  Type20[0]->End = 0x1FFFFF, Type17[0] = 800
+2071:328  0:000  Type20[1]->End = 0x3FFFFF, Type17[1] = 1800
+2071:328  0:000  Type20[2]->End = 0x5FFFFF, Type17[2] = 3000
+2071:328  0:000  Type20[3]->End = 0x7FFFFF, Type17[3] = 5000
+2071:328  0:000  === [ PatchACPI ] ===============================
+2071:328  0:000  Xsdt is not found! Creating new one
+2071:328  0:000  RsdPointer is Acpi 1.0 - creating new one Acpi 2.0
+2071:328  0:000  RsdPointer Acpi 2.0 installed
+2071:328  0:000  RSDT entries = 7
+2071:328  0:000  Xsdt reallocation done
+2071:328  0:000  old FADT length=74
+2071:328  0:000   SignatureFixup: 0x0 -> 0x0
+2071:328  0:000  DSDT found in Clover volume: \EFI\CLOVER\ACPI\patched\DSDT-GA-EP45-UD3R-1.1-F12.aml
+2071:345  0:016  Apply DsdtFixMask=0x0000BD55
+2071:345  0:000  === [ FixBiosDsdt ] =============================
+2071:345  0:000  Start HPET Fix
+2071:345  0:000  Start Display0 Fix
+2071:345  0:000  add device PEG0
+2071:345  0:000  add device GFX0
+2071:345  0:000  Skipping Method(_DSM) for 10DE card
+2071:345  0:000  patch Display #0 of Vendor=0x10DE
+2071:345  0:000  patch LAN0 in DSDT 
+2071:346  0:000  NewName HDEF already present, renaming impossible
+2071:348  0:001  PreCleanup XSDT: count=7, length=92
+2071:348  0:000  PreCleanup XSDT, corrected XSDT: count=7, length=92
+2071:348  0:000  === [ ACPIDropTables ] ==========================
+2071:348  0:000  ApicCPUNum=4
+2071:348  0:000  Cleanup XSDT: count=7, length=92
+2071:348  0:000  corrected XSDT count=7, length=92
+2071:348  0:000  === [ RestSetup macOS ] =========================
+2071:348  0:000  mem_detected 768Mb
+2071:348  0:000  read_nVidia_ROM
+2071:348  0:000  Using PRAMIN fixups
+2071:453  0:105  version 62.92.4C.00.37
+2071:453  0:000  nVidia XFX GeForce 9600 GSO  768MB NV92 [10DE:0610] :: PcieRoot(0x0)\Pci(0x1,0x0)\Pci(0x0,0x0) => device #1
+2071:453  0:000  Nvidia: VideoPorts: undefined, default to: 2
+2071:453  0:000  set NVCAP: 04000000-00000300-0C000000-00000007-00000000
+2071:453  0:000   setting specified layout-id=1 (0x1)
+2071:454  0:000  stringlength = 3282
+2071:454  0:000  CurrentMode: Width=1280 Height=1024
+2071:454  0:000  Use origin smbios table type 1 guid.
+2071:455  0:000  SetStartupDiskVolume:
+2071:455  0:000    * Volume: 'Big Mac'
+2071:455  0:000    * LoaderPath: ''
+2071:455  0:000    * DevPath: Big Mac
+2071:455  0:000    * GUID = 56AFC2DD-1336-4C58-AD18-5DC62F3A1324
+2071:455  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>56AFC2DD-1336-4C58-AD18-5DC62F3A1324</string></dict></dict></dict></array>
+2071:455  0:000  Custom boot is disabled
+2071:455  0:000  Closing log
+2071:455  0:000  OC: Supported boot capabilities 4
+2071:477  0:022  OCOS: OS set: <null> Mac OS X 10.12
+2071:479  0:002  OCOS: OS set: Apple Inc. Mac OS X 10.12
+2071:482  0:002  OCOS: Should use black background
+2071:493  0:010  OC: Opening file System\Library\Kernels\kernel with 1 mode gave - Success
+2071:503  0:010  OC: Opening file \System\Library\CoreServices\com.apple.Boot.plist with 1 mode gave - Not Found
+2071:532  0:028  OC: Opening file Library\Preferences\SystemConfiguration\com.apple.Boot.plist with 1 mode gave - Success
+2071:553  0:021  OC: Opening file \System\Library\CoreServices\PlatformSupport.plist with 1 mode gave - Success
+2071:624  0:070  OC: Opening file System\Library\PrelinkedKernels\prelinkedkernel.development with 1 mode gave - Not Found
+2071:628  0:003  OC: Opening file System\Library\PrelinkedKernels\prelinkedkernel with 1 mode gave - Success
+2071:877  0:249  OC: Kext reservation size info 640000 exe B84000
+2071:890  0:013  OC: Trying 64-bit XNU hook on System\Library\PrelinkedKernels\prelinkedkernel
+2072:758  0:867  OCAK: Compressed result has D515F018 magic
+2072:760  0:002  OCAK: Found 64-bit Mach-O compressed 1 offset 28 size 51740672
+2072:763  0:002  OC: Result of 64-bit XNU hook on System\Library\PrelinkedKernels\prelinkedkernel (00000000) is Success
+2072:833  0:069  OCAK: Read kernel version 16.7.0 (160700)
+2072:835  0:002  OC: Kernel patch skipped [0] AppleAHCIPort (External icons patch)
+2072:839  0:004  OC: Kernel patch skipped [1] AppleHDA (AppleHDA/Resources/xml>zml)
+2072:842  0:002  OC: Kernel patch skipped [2] AppleHDA (AppleHDA/Resources/xml>zml)
+2072:844  0:002  OC: Kernel patch skipped [3] IOErrorFix (NoLabel)
+2072:894  0:049  OCAK: Reducing prelink size from 3158000 to 2E9A000 via plist
+2072:897  0:002  OCAK: as.vit9696.Lilu got KXLD 0 0
+2072:899  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.Lilu - D7FF9438 at 2E9A000
+2072:902  0:002  OCAK: Requesting SymbolTable for as.vit9696.Lilu - 516
+2072:906  0:004  OCAK: Requesting __LINKEDIT for __kernel__ - 0 at 0
+2072:908  0:002  OCAK: Requesting SymbolTable for __kernel__ - 21171
+2072:939  0:030  OCAK: com.apple.kpi.bsd got KXLD 0 0
+2072:941  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.bsd - D5E27038 at CC8000
+2072:944  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.bsd - 829
+2072:947  0:002  OCAK: com.apple.kpi.dsep got KXLD 0 0
+2072:949  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.dsep - D6293038 at 1134000
+2072:953  0:004  OCAK: Requesting SymbolTable for com.apple.kpi.dsep - 36
+2072:956  0:002  OCAK: com.apple.kpi.iokit got KXLD 0 0
+2072:958  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.iokit - D5E74038 at D15000
+2072:961  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.iokit - 2150
+2072:964  0:002  OCAK: com.apple.kpi.libkern got KXLD 0 0
+2072:966  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.libkern - D5E0F038 at CB0000
+2072:968  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.libkern - 880
+2072:972  0:003  OCAK: com.apple.kpi.mach got KXLD 0 0
+2072:976  0:003  OCAK: Requesting __LINKEDIT for com.apple.kpi.mach - D5E23038 at CC4000
+2072:979  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.mach - 63
+2072:981  0:002  OCAK: com.apple.kpi.unsupported got KXLD 0 0
+2072:984  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.unsupported - D5E1D038 at CBE000
+2072:986  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.unsupported - 227
+2073:000  0:013  OC: Prelinked injection Kexts\Other\Lilu.kext () - Success
+2073:018  0:017  OCAK: as.vit9696.VirtualSMC got KXLD 0 0
+2073:020  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.VirtualSMC - D8025438 at 2EC6000
+2073:023  0:002  OCAK: Requesting SymbolTable for as.vit9696.VirtualSMC - 452
+2073:025  0:002  OCAK: Requesting SymbolTable for as.vit9696.Lilu - 133
+2073:030  0:004  OCAK: com.apple.iokit.IOACPIFamily got KXLD 0 0
+2073:032  0:002  OCAK: Requesting __LINKEDIT for com.apple.iokit.IOACPIFamily - D695E398 at 17FF000
+2073:036  0:004  OCAK: Requesting SymbolTable for com.apple.iokit.IOACPIFamily - 167
+2073:039  0:002  OCAK: com.apple.kpi.private got KXLD 0 0
+2073:041  0:002  OCAK: Requesting __LINKEDIT for com.apple.kpi.private - D5E95038 at D36000
+2073:044  0:002  OCAK: Requesting SymbolTable for com.apple.kpi.private - 825
+2073:062  0:018  OC: Prelinked injection Kexts\Other\VirtualSMC.kext () - Success
+2073:065  0:002  OCAK: as.vit9696.WhateverGreen got KXLD 0 0
+2073:067  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.WhateverGreen - D803F3E8 at 2EE0000
+2073:071  0:003  OCAK: Requesting SymbolTable for as.vit9696.WhateverGreen - 408
+2073:074  0:003  OCAK: com.apple.iokit.IOPCIFamily got KXLD 0 0
+2073:076  0:002  OCAK: Requesting __LINKEDIT for com.apple.iokit.IOPCIFamily - D5F833E8 at E24000
+2073:089  0:012  OCAK: Requesting SymbolTable for com.apple.iokit.IOPCIFamily - 674
+2073:110  0:021  OC: Prelinked injection Kexts\Other\WhateverGreen.kext () - Success
+2073:120  0:009  OCAK: as.vit9696.AppleALC got KXLD 0 0
+2073:124  0:004  OCAK: Requesting __LINKEDIT for as.vit9696.AppleALC - D80BA3E8 at 2F5B000
+2073:127  0:002  OCAK: Requesting SymbolTable for as.vit9696.AppleALC - 438
+2073:147  0:020  OC: Prelinked injection Kexts\Other\AppleALC.kext () - Success
+2073:150  0:002  OCAK: as.vit9696.SMCProcessor got KXLD 0 0
+2073:153  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.SMCProcessor - D82293E8 at 30CA000
+2073:155  0:002  OCAK: Requesting SymbolTable for as.vit9696.SMCProcessor - 355
+2073:159  0:003  OCAK: Requesting SymbolTable for as.vit9696.VirtualSMC - 27
+2073:174  0:014  OC: Prelinked injection Kexts\Other\SMCProcessor.kext () - Success
+2073:177  0:003  OCAK: ru.joedm.SMCSuperIO got KXLD 0 0
+2073:179  0:002  OCAK: Requesting __LINKEDIT for ru.joedm.SMCSuperIO - D82383E8 at 30D9000
+2073:182  0:002  OCAK: Requesting SymbolTable for ru.joedm.SMCSuperIO - 335
+2073:196  0:013  OC: Prelinked injection Kexts\Other\SMCSuperIO.kext () - Success
+2073:203  0:006  OCAK: as.acidanthera.BrcmFirmwareStore got KXLD 0 0
+2073:207  0:004  OCAK: Requesting __LINKEDIT for as.acidanthera.BrcmFirmwareStore - D824C398 at 30ED000
+2073:209  0:002  OCAK: Requesting SymbolTable for as.acidanthera.BrcmFirmwareStore - 680
+2073:222  0:013  OC: Prelinked injection Kexts\Other\BrcmFirmwareData.kext () - Success
+2073:228  0:005  OCAK: as.acidanthera.BrcmPatchRAM2 got KXLD 0 0
+2073:230  0:002  OCAK: Requesting __LINKEDIT for as.acidanthera.BrcmPatchRAM2 - D84FD398 at 339E000
+2073:233  0:002  OCAK: Requesting SymbolTable for as.acidanthera.BrcmPatchRAM2 - 860
+2073:237  0:004  OCAK: Requesting SymbolTable for as.acidanthera.BrcmFirmwareStore - 367
+2073:240  0:003  OCAK: com.apple.iokit.IOUSBHostFamily got KXLD 0 0
+2073:243  0:002  OCAK: Requesting __LINKEDIT for com.apple.iokit.IOUSBHostFamily - D69743E8 at 1815000
+2073:245  0:002  OCAK: Requesting SymbolTable for com.apple.iokit.IOUSBHostFamily - 1548
+2073:249  0:003  OCAK: com.apple.driver.AppleBusPowerController got KXLD 0 0
+2073:251  0:002  OCAK: Requesting __LINKEDIT for com.apple.driver.AppleBusPowerController - D6967348 at 1808000
+2073:256  0:004  OCAK: Requesting SymbolTable for com.apple.driver.AppleBusPowerController - 107
+2073:286  0:030  OC: Prelinked injection Kexts\10.12\BrcmPatchRAM2.kext () - Success
+2073:298  0:011  OC: Prelinked injection Kexts\Other\BrcmBluetoothInjector.kext () - Success
+2073:300  0:002  OCAK: as.lvs1974.HibernationFixup got KXLD 0 0
+2073:303  0:002  OCAK: Requesting __LINKEDIT for as.lvs1974.HibernationFixup - D8513438 at 33B4000
+2073:308  0:005  OCAK: Requesting SymbolTable for as.lvs1974.HibernationFixup - 565
+2073:321  0:013  OC: Prelinked injection Kexts\Other\HibernationFixup.kext () - Success
+2073:324  0:002  OCAK: com.insanelymac.RealtekRTL8111 got KXLD 0 0
+2073:327  0:002  OCAK: Requesting __LINKEDIT for com.insanelymac.RealtekRTL8111 - D8521398 at 33C2000
+2073:330  0:003  OCAK: Requesting SymbolTable for com.insanelymac.RealtekRTL8111 - 616
+2073:333  0:003  OCAK: com.apple.iokit.IONetworkingFamily got KXLD 0 0
+2073:346  0:012  OCAK: Requesting __LINKEDIT for com.apple.iokit.IONetworkingFamily - D6AE93E8 at 198A000
+2073:349  0:002  OCAK: Requesting SymbolTable for com.apple.iokit.IONetworkingFamily - 961
+2073:375  0:026  OC: Prelinked injection Kexts\Other\RealtekRTL8111.kext () - Success
+2073:381  0:005  OCAK: org.vanilla.driver.CPUFriend got KXLD 0 0
+2073:383  0:002  OCAK: Requesting __LINKEDIT for org.vanilla.driver.CPUFriend - D85933E8 at 3434000
+2073:388  0:005  OCAK: Requesting SymbolTable for org.vanilla.driver.CPUFriend - 339
+2073:403  0:014  OC: Prelinked injection Kexts\Other\CPUFriend.kext () - Success
+2073:406  0:002  OCAK: as.lvs1974.AirportBrcmFixup got KXLD 0 0
+2073:408  0:002  OCAK: Requesting __LINKEDIT for as.lvs1974.AirportBrcmFixup - D859E3E8 at 343F000
+2073:411  0:002  OCAK: Requesting SymbolTable for as.lvs1974.AirportBrcmFixup - 378
+2073:433  0:022  OC: Prelinked injection Kexts\Other\AirportBrcmFixup.kext () - Success
+2073:436  0:002  OC: Prelinked injection Kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext () - Success
+2073:440  0:004  OC: Prelinked injection Kexts\Other\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext () - Success
+2073:446  0:006  OCAK: com.rehabman.driver.USBInjectAll got KXLD 0 0
+2073:449  0:002  OCAK: Requesting __LINKEDIT for com.rehabman.driver.USBInjectAll - D85AC398 at 344D000
+2073:451  0:002  OCAK: Requesting SymbolTable for com.rehabman.driver.USBInjectAll - 351
+2073:467  0:015  OC: Prelinked injection Kexts\Other\USBInjectAll.kext () - Success
+2073:472  0:005  OCAK: as.acidanthera.BrcmFirmwareStore got KXLD 0 0
+2073:474  0:002  OCAK: Requesting __LINKEDIT for as.acidanthera.BrcmFirmwareStore - D85B7348 at 3458000
+2073:477  0:002  OCAK: Requesting SymbolTable for as.acidanthera.BrcmFirmwareStore - 475
+2073:489  0:011  OC: Prelinked injection Kexts\Other\BrcmFirmwareRepo.kext () - Success
+2073:498  0:008  OCAK: as.vit9696.AppleALC got KXLD 0 0
+2073:500  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.AppleALC - D85C63E8 at 3467000
+2073:505  0:004  OCAK: Requesting SymbolTable for as.vit9696.AppleALC - 438
+2073:526  0:020  OC: Prelinked injection Kexts\10.12\AppleALC.kext () - Success
+2073:531  0:005  OCAK: as.lvs1974.AirportBrcmFixup got KXLD 0 0
+2073:533  0:002  OCAK: Requesting __LINKEDIT for as.lvs1974.AirportBrcmFixup - D87353E8 at 35D6000
+2073:536  0:002  OCAK: Requesting SymbolTable for as.lvs1974.AirportBrcmFixup - 378
+2073:550  0:014  OC: Prelinked injection Kexts\10.12\AirportBrcmFixup.kext () - Success
+2073:555  0:005  OC: Prelinked injection Kexts\10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcm4360_Injector.kext () - Success
+2073:558  0:002  OC: Prelinked injection Kexts\10.12\AirportBrcmFixup.kext\Contents\PlugIns\AirPortBrcmNIC_Injector.kext () - Success
+2073:560  0:002  OCAK: org.vanilla.driver.CPUFriend got KXLD 0 0
+2073:563  0:002  OCAK: Requesting __LINKEDIT for org.vanilla.driver.CPUFriend - D87433E8 at 35E4000
+2073:565  0:002  OCAK: Requesting SymbolTable for org.vanilla.driver.CPUFriend - 339
+2073:580  0:014  OC: Prelinked injection Kexts\10.12\CPUFriend.kext () - Success
+2073:585  0:004  OCAK: as.lvs1974.HibernationFixup got KXLD 0 0
+2073:587  0:002  OCAK: Requesting __LINKEDIT for as.lvs1974.HibernationFixup - D874E438 at 35EF000
+2073:590  0:002  OCAK: Requesting SymbolTable for as.lvs1974.HibernationFixup - 565
+2073:603  0:013  OC: Prelinked injection Kexts\10.12\HibernationFixup.kext () - Success
+2073:610  0:006  OCAK: as.vit9696.Lilu got KXLD 0 0
+2073:614  0:004  OCAK: Requesting __LINKEDIT for as.vit9696.Lilu - D875C438 at 35FD000
+2073:617  0:002  OCAK: Requesting SymbolTable for as.vit9696.Lilu - 516
+2073:630  0:013  OC: Prelinked injection Kexts\10.12\Lilu.kext () - Success
+2073:635  0:004  OCAK: com.insanelymac.RealtekRTL8111 got KXLD 0 0
+2073:637  0:002  OCAK: Requesting __LINKEDIT for com.insanelymac.RealtekRTL8111 - D8788398 at 3629000
+2073:640  0:002  OCAK: Requesting SymbolTable for com.insanelymac.RealtekRTL8111 - 616
+2073:658  0:018  OC: Prelinked injection Kexts\10.12\RealtekRTL8111.kext () - Success
+2073:667  0:008  OCAK: as.vit9696.SMCProcessor got KXLD 0 0
+2073:669  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.SMCProcessor - D87FA3E8 at 369B000
+2073:672  0:002  OCAK: Requesting SymbolTable for as.vit9696.SMCProcessor - 355
+2073:685  0:013  OC: Prelinked injection Kexts\10.12\SMCProcessor.kext () - Success
+2073:692  0:006  OCAK: ru.joedm.SMCSuperIO got KXLD 0 0
+2073:694  0:002  OCAK: Requesting __LINKEDIT for ru.joedm.SMCSuperIO - D88093E8 at 36AA000
+2073:699  0:004  OCAK: Requesting SymbolTable for ru.joedm.SMCSuperIO - 335
+2073:712  0:013  OC: Prelinked injection Kexts\10.12\SMCSuperIO.kext () - Success
+2073:720  0:008  OCAK: com.rehabman.driver.USBInjectAll got KXLD 0 0
+2073:723  0:002  OCAK: Requesting __LINKEDIT for com.rehabman.driver.USBInjectAll - D881D398 at 36BE000
+2073:725  0:002  OCAK: Requesting SymbolTable for com.rehabman.driver.USBInjectAll - 351
+2073:741  0:015  OC: Prelinked injection Kexts\10.12\USBInjectAll.kext () - Success
+2073:748  0:006  OCAK: as.vit9696.VirtualSMC got KXLD 0 0
+2073:750  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.VirtualSMC - D8828438 at 36C9000
+2073:755  0:004  OCAK: Requesting SymbolTable for as.vit9696.VirtualSMC - 452
+2073:772  0:016  OC: Prelinked injection Kexts\10.12\VirtualSMC.kext () - Success
+2073:775  0:003  OCAK: as.vit9696.WhateverGreen got KXLD 0 0
+2073:778  0:002  OCAK: Requesting __LINKEDIT for as.vit9696.WhateverGreen - D88423E8 at 36E3000
+2073:782  0:004  OCAK: Requesting SymbolTable for as.vit9696.WhateverGreen - 408
+2073:797  0:015  OC: Prelinked injection Kexts\10.12\WhateverGreen.kext () - Success
+2073:802  0:004  OC: Prelinked injection Kexts\10.12\BrcmBluetoothInjector.kext () - Success
+2073:806  0:003  OCAK: as.acidanthera.BrcmFirmwareStore got KXLD 0 0
+2073:808  0:002  OCAK: Requesting __LINKEDIT for as.acidanthera.BrcmFirmwareStore - D88BD398 at 375E000
+2073:814  0:005  OCAK: Requesting SymbolTable for as.acidanthera.BrcmFirmwareStore - 680
+2073:828  0:013  OC: Prelinked injection Kexts\10.12\BrcmFirmwareData.kext () - Success
+2073:831  0:003  OCAK: as.acidanthera.BrcmFirmwareStore got KXLD 0 0
+2073:833  0:002  OCAK: Requesting __LINKEDIT for as.acidanthera.BrcmFirmwareStore - D8B6E348 at 3A0F000
+2073:836  0:002  OCAK: Requesting SymbolTable for as.acidanthera.BrcmFirmwareStore - 475
+2073:848  0:011  OC: Prelinked injection Kexts\10.12\BrcmFirmwareRepo.kext () - Success
+2073:852  0:004  OC: Prelinked injection Kexts\10.12\BrcmNonPatchRAM2.kext () - Success
+2073:856  0:004  OC: Prelink size 60940288 kext offset 48865280 reserved 12075008
+2073:924  0:068  OC: Kernel patch [0] AppleAHCIPort (External icons patch)
+2073:932  0:007  OCAK: Failed to pk find AppleAHCIPort - Not Found
+2073:935  0:002  OC: Kernel patcher result 0 for AppleAHCIPort (AppleAHCIPort (External icons patch)) - Not Found
+2073:937  0:002  OC: Kernel patch [1] AppleHDA (AppleHDA/Resources/xml>zml)
+2073:945  0:007  OCAK: Failed to pk find AppleHDA - Not Found
+2073:951  0:006  OC: Kernel patcher result 1 for AppleHDA (AppleHDA (AppleHDA/Resources/xml>zml)) - Not Found
+2073:954  0:002  OC: Kernel patch [2] AppleHDA (AppleHDA/Resources/xml>zml)
+2073:961  0:007  OCAK: Failed to pk find AppleHDA - Not Found
+2073:964  0:002  OC: Kernel patcher result 2 for AppleHDA (AppleHDA (AppleHDA/Resources/xml>zml)) - Not Found
+2073:967  0:002  OC: Kernel patch [3] IOErrorFix (NoLabel)
+2073:970  0:003  OC: Kernel patch 3 for IOErrorFix (IOErrorFix (NoLabel)) is borked
+2073:993  0:022  OC: Prelinked status - Success
+2074:113  0:120  FixOwnership() -> begin
+2074:113  0:000  USB UHCI Base=FF01 PortBase=7F8
+2074:114  0:001  USB UHCI reset for device 3A37
+2074:114  0:000  USB UHCI Base=FE01 PortBase=7F0
+2074:115  0:001  USB UHCI reset for device 3A38
+2074:115  0:000  USB UHCI Base=FD01 PortBase=7E8
+2074:116  0:001  USB UHCI reset for device 3A39
+2074:116  0:000  Base=FDFFF000 Oper=FDFFF020 eecp=68
+2074:116  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:116  0:000  usblegsup=01000001 isOSowned=1 isBIOSowned=0 usblegctlsts=C0002000
+2074:117  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:117  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:117  0:000  usblegsup=00000001 isOSowned=0 isBIOSowned=0 usblegctlsts=20000000
+2074:117  0:000  Legacy USB Off Done
+2074:117  0:000  USB EHCI Ownership for device 3A3C value=1000001
+2074:117  0:000  USB UHCI Base=FC01 PortBase=7E0
+2074:118  0:001  USB UHCI reset for device 3A34
+2074:118  0:000  USB UHCI Base=FB01 PortBase=7D8
+2074:119  0:001  USB UHCI reset for device 3A35
+2074:119  0:000  USB UHCI Base=FA01 PortBase=7D0
+2074:120  0:001  USB UHCI reset for device 3A36
+2074:120  0:000  Base=FDFFE000 Oper=FDFFE020 eecp=68
+2074:120  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:120  0:000  usblegsup=01000001 isOSowned=1 isBIOSowned=0 usblegctlsts=C0002000
+2074:121  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:121  0:000  usbcmd=00080000 usbsts=00001000 usbintr=00000000
+2074:121  0:000  usblegsup=00000001 isOSowned=0 isBIOSowned=0 usblegctlsts=20000000
+2074:121  0:000  Legacy USB Off Done
+2074:121  0:000  USB EHCI Ownership for device 3A3A value=1000001
+2074:121  0:000  ++++++++++++++++++++++++++++++++

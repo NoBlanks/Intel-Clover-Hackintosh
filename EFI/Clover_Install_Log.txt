@@ -1,0 +1,79 @@
+
+Clover EFI installer log - Wed May 12 15:27:45 EDT 2021
+Installer version: r5134 (commit: fb86ee152) EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:       Microsoft Basic Data ⁨ENTIER_ESP⁩              2.1 MB     disk0s1
+   2: 5AA99418-9416-0BA9-F7F7-ECA86B38F519 ⁨⁩              1.0 TB     disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *2.0 TB     disk1
+   1:       Microsoft Basic Data ⁨ENTIER_ESP⁩              2.1 MB     disk1s1
+   2: 5AA99418-9416-0BA9-F7F7-ECA86B38F519 ⁨⁩              2.0 TB     disk1s2
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk2
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk2s1
+   2:                 Apple_APFS ⁨Container disk3⁩         499.9 GB   disk2s2
+
+/dev/disk3 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.9 GB   disk3
+                                 Physical Store disk2s2
+   1:                APFS Volume ⁨Big Mac - Data⁩          1.3 MB     disk3s1
+   2:                APFS Volume ⁨Preboot⁩                 454.9 MB   disk3s2
+   3:                APFS Volume ⁨Recovery⁩                620.9 MB   disk3s3
+   4:                APFS Volume ⁨VM⁩                      1.1 GB     disk3s4
+   5:                APFS Volume ⁨Big Mac - Data⁩          326.7 GB   disk3s5
+   6:                APFS Volume ⁨Big Mac⁩                 19.0 GB    disk3s7
+   7:              APFS Snapshot ⁨com.apple.os.update-...⁩ 19.0 GB    disk3s7s1
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *250.0 GB   disk4
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk4s1
+   2:                  Apple_HFS ⁨Install OS X Snow Le...⁩ 8.0 GB     disk4s2
+   3:                  Apple_HFS ⁨Install OS X Yosemite⁩   8.0 GB     disk4s3
+   4:                  Apple_HFS ⁨Install macOS Sierra⁩    8.0 GB     disk4s4
+   5:                  Apple_HFS ⁨Install macOS High S...⁩ 8.0 GB     disk4s5
+   6:                 Apple_Boot ⁨Recovery HD⁩             650.0 MB   disk4s6
+   7:                  Apple_HFS ⁨Install OS X Mountai...⁩ 8.0 GB     disk4s7
+   8:                  Apple_HFS ⁨Install macOS Big Sur⁩   16.1 GB    disk4s8
+   9:                  Apple_HFS ⁨Untitled⁩                96.9 GB    disk4s9
+  10:                  Apple_HFS ⁨Install OS X Tiger⁩      15.9 GB    disk4s10
+  11:                  Apple_HFS ⁨Install macOS Mojave⁩    15.9 GB    disk4s11
+  12:                  Apple_HFS ⁨Install OS X El Capitan⁩ 15.8 GB    disk4s12
+  13:                  Apple_HFS ⁨Install macOS Catalina⁩  15.9 GB    disk4s13
+  14:                  Apple_HFS ⁨Install OS X Leopard⁩    15.9 GB    disk4s14
+  15:                  Apple_HFS ⁨Install OS X Lion⁩       7.9 GB     disk4s15
+  16:                  Apple_HFS ⁨Install OS X Mavericks⁩  7.2 GB     disk4s16
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/Install OS X Snow Leopard/Private/tmp/EFIROOTDIR/boot  to /Volumes/Install OS X Snow Leopard//Users/noblanks/Clover EFI Backups/r5102/2021-05-12-15h27/boot
+Backing up /Volumes/Install OS X Snow Leopard/Private/tmp/EFIROOTDIR/EFI folder to /Volumes/Install OS X Snow Leopard//Users/noblanks/Clover EFI Backups/r5102/2021-05-12-15h27/EFI
+No Active Partition
+
+Stage 0 - Writing boot0af to /dev/rdisk4
+dd if=/dev/rdisk4 count=1 bs=512 of=/tmp/origMBR
+cp /tmp/origMBR /tmp/newMBR
+dd if=/Volumes/Install OS X Snow Leopard/Private/tmp/usr/standalone/i386/boot0af of=/tmp/newMBR bs=440 count=1 conv=notrunc
+fdisk -f /tmp/newMBR -u -y /dev/rdisk4
+
+Stage 1 - Writing boot1f32 to /dev/rdisk4s1
+dd if=/dev/rdisk4s1 count=1 bs=512 of=/tmp/origbs
+boot volume format is FAT32
+cp /tmp/boot1f32 /tmp/newbs
+dd if=/tmp/origbs of=/tmp/newbs skip=3 seek=3 bs=1 count=87 conv=notrunc
+dd if=/tmp/newbs of=/dev/rdisk4s1
+
+Stage 2 - Written boot6 (x64) to /Volumes/EFI/boot
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

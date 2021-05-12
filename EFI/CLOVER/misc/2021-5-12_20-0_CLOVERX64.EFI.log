@@ -1,0 +1,139 @@
+0:100  0:100  MemLog inited, TSC freq: 2333066991
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x2E208086
+0:100  0:000   Intel Series 4 and similar (PAM 0x90-0x96)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=00, 0x91=11) at chipset 2E208086
+0:100  0:000  , Install = Success
+0:109  0:009  BiosVideoDriverBindingStart!
+0:109  0:000  BiosVideoCheckForVbe
+0:109  0:000  EdidOverride not found
+0:130  0:021   Edid1-
+0:151  0:021   Edid0+
+0:151  0:000   found Detail Timing 1280x1024
+0:200  0:048     0 640x480 attr=3BF - ok, edid+, 640x480, working, highest, pref=0
+0:202  0:001     1 800x600 attr=3BF - ok, edid+, 800x600, working, highest, pref=1
+0:203  0:001     2 1024x768 attr=3BF - ok, edid+, 1024x768, working, highest, pref=2
+0:205  0:001     3 1280x1024 attr=3BF - ok, edid+, working, highest, pref=3
+0:212  0:007  BV new mode: 3 1280x1024
+0:471  0:258   SetMode pref 3 (3) = Success
+7:822  7:351  CloverX64 : Image base = 0xDD400000
+7:871  0:048  === [ Starting Clover ] =========================
+7:871  0:000  Now is 12.05.2021,  20:00:18 (GMT)
+7:871  0:000  Starting Clover revision: 5134 (master, commit fb86ee152) on CLOVER EFI
+7:871  0:000  Build id: 20210429211313-fb86ee1-5134-dirty
+7:871  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC53 | --cmd-len=50000 -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+7:871  0:000  SimpleTextEx Status=Success
+7:871  0:000  === [ Get Smbios ] ==============================
+7:871  0:000  Type 16 Index = 0
+7:871  0:000  Total Memory Slots Count = 4
+7:871  0:000  Type 17 Index = 0
+7:871  0:000  SmbiosTable.Type17->Speed = 800MHz
+7:871  0:000  SmbiosTable.Type17->Size = 2048MB
+7:871  0:000  SmbiosTable.Type17->Bank/Device = Bank0/1 A0
+7:871  0:000  SmbiosTable.Type17->Vendor = 
+7:871  0:000  SmbiosTable.Type17->SerialNumber = 
+7:871  0:000  SmbiosTable.Type17->PartNumber = 
+7:871  0:000  Type 17 Index = 1
+7:871  0:000  SmbiosTable.Type17->Speed = 800MHz
+7:871  0:000  SmbiosTable.Type17->Size = 2048MB
+7:871  0:000  SmbiosTable.Type17->Bank/Device = Bank2/3 A1
+7:871  0:000  SmbiosTable.Type17->Vendor = 
+7:871  0:000  SmbiosTable.Type17->SerialNumber = 
+7:871  0:000  SmbiosTable.Type17->PartNumber = 
+7:871  0:000  Type 17 Index = 2
+7:871  0:000  SmbiosTable.Type17->Speed = 800MHz
+7:871  0:000  SmbiosTable.Type17->Size = 2048MB
+7:871  0:000  SmbiosTable.Type17->Bank/Device = Bank4/5 A2
+7:871  0:000  SmbiosTable.Type17->Vendor = 
+7:871  0:000  SmbiosTable.Type17->SerialNumber = 
+7:871  0:000  SmbiosTable.Type17->PartNumber = 
+7:871  0:000  Type 17 Index = 3
+7:871  0:000  SmbiosTable.Type17->Speed = 800MHz
+7:871  0:000  SmbiosTable.Type17->Size = 2048MB
+7:871  0:000  SmbiosTable.Type17->Bank/Device = Bank6/7 A3
+7:871  0:000  SmbiosTable.Type17->Vendor = 
+7:871  0:000  SmbiosTable.Type17->SerialNumber = 
+7:871  0:000  SmbiosTable.Type17->PartNumber = 
+7:871  0:000  Boot status=0
+7:871  0:000  Running on: 'EP45-UD3R' with board 'EP45-UD3R'
+7:871  0:000  === [ GetCPUProperties ] ========================
+7:871  0:000  CPU Vendor = 756E6547 Model=1067A
+7:871  0:000   The CPU supported SSE4.1
+7:871  0:000  BrandString = Intel(R) Core(TM)2 Quad CPU    Q8200  @ 2.33GHz
+7:871  0:000  got cores from CPUID_1 = 4
+7:871  0:000   The CPU not supported turbo
+7:871  0:000   Energy PerfBias is  not visible:
+7:871  0:000  MSR dumps:
+7:871  0:000  	@0x00CD=80000a04
+7:871  0:000  	@0x0198=616072206000722
+7:871  0:000  FSBFrequency = 572 MHz, DMI FSBFrequency = 333 MHz, Corrected FSBFrequency = 333 MHz
+7:871  0:000  MaxDiv/MinDiv: 7.0/6
+7:871  0:000  Turbo: 8/0/0/0
+7:871  0:000  Features: 0x408E39DBFEBFBFF
+7:871  0:000  Threads: 4
+7:871  0:000  Cores: 4
+7:871  0:000  FSB: 333 MHz
+7:871  0:000  CPU: 4000 MHz
+7:871  0:000  TSC: 4000 MHz
+7:871  0:000  PIS: 1333 MHz
+7:871  0:000  ExternalClock: 333 MHz
+7:871  0:000  === [ GetDefaultCpuSettings ] ===================
+7:871  0:000  === [ GetDevices ] ==============================
+7:871  0:000  Found more than one GOP protocol ??? Using the first one
+7:871  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+7:871  0:000  PCI (00|00:00.00) : 8086 2E20 class=060000
+7:871  0:000  PCI (00|00:01.00) : 8086 2E21 class=060400
+7:871  0:000  PCI (00|01:00.00) : 10DE 128B class=030000
+7:871  0:000   - GFX: Model=Gigabyte GeForce GT 710 family 106 (Kepler)
+7:871  0:000   - GOP: Provided by device
+7:871  0:000  PCI (00|01:00.01) : 10DE 0E0F class=040300
+7:871  0:000   - HDMI Audio: 
+7:871  0:000  PCI (00|00:1A.00) : 8086 3A37 class=0C0300
+7:871  0:000  PCI (00|00:1A.01) : 8086 3A38 class=0C0300
+7:871  0:000  PCI (00|00:1A.02) : 8086 3A39 class=0C0300
+7:871  0:000  PCI (00|00:1A.07) : 8086 3A3C class=0C0320
+7:871  0:000  PCI (00|00:1B.00) : 8086 3A3E class=040300
+7:871  0:000  PCI (00|00:1C.00) : 8086 3A40 class=060400
+7:871  0:000  PCI (00|00:1C.03) : 8086 3A46 class=060400
+7:871  0:000  PCI (00|03:00.00) : 197B 2363 class=010601
+7:871  0:000  PCI (00|03:00.01) : 197B 2363 class=010185
+7:871  0:000  PCI (00|00:1C.04) : 8086 3A48 class=060400
+7:871  0:000  PCI (00|04:00.00) : 10EC 8168 class=020000
+7:871  0:000   - LAN: 1 Vendor=Realtek
+7:871  0:000  Legacy MAC address of LAN #0= 00:1F:D0:D7:EB:C6:
+7:871  0:000  PCI (00|00:1D.00) : 8086 3A34 class=0C0300
+7:872  0:000  PCI (00|00:1D.01) : 8086 3A35 class=0C0300
+7:872  0:000  PCI (00|00:1D.02) : 8086 3A36 class=0C0300
+7:872  0:000  PCI (00|00:1D.07) : 8086 3A3A class=0C0320
+7:872  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+7:872  0:000  PCI (00|05:07.00) : 104C 8024 class=0C0010
+7:872  0:000  PCI (00|00:1F.00) : 8086 3A16 class=060100
+7:872  0:000  PCI (00|00:1F.02) : 8086 3A22 class=010601
+7:872  0:000  PCI (00|00:1F.03) : 8086 3A30 class=0C0500
+7:889  0:016  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R--00-1F-D0-D7-EB-C6'. Dir doesn't exist.
+7:889  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R'. Dir doesn't exist.
+7:889  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R-4000'. Dir doesn't exist.
+7:889  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R'. Dir doesn't exist.
+7:889  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\EP45-UD3R-4000'. Dir doesn't exist.
+7:908  0:018  === [ GetUserSettings ] =========================
+7:942  0:034  Using config.plist at path: \EFI\CLOVER
+7:942  0:000  There is problems in plist '\EFI\CLOVER\config.plist'
+7:943  0:000  Warning: Unknown key '/ACPI/DSDT/DropOEM_DSM:41'. Skipped.
+7:944  0:000  Warning: Unknown key '/KernelAndKextPatches/KernelCpu:273'. Skipped.
+7:944  0:000  Warning: Unknown key '/Quirks/DisableRtcChecksum:341'. Skipped.
+7:945  0:000  Use CloverConfigPlistValidator or look in the log
+10:945  3:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+10:945  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+10:945  0:000  Using latest BiosVersion from config
+11:640  0:694  BiosVersion: IM181.88Z.F000.B00.2011032300
+11:787  0:146  Using latest BiosReleaseDate from config
+11:941  0:154  BiosReleaseDate: 11/03/2020
+12:093  0:152  Using latest EfiVersion from config: 429.60.3.0.0
+12:246  0:152  Calibrated TSC Frequency = 2333066991 = 2333MHz
+12:403  0:157  === [ GetListOfThemes ] =========================
+12:575  0:171  - [00]: embedded
+12:919  0:344  - [00]: random
+13:264  0:344  - [00]: tonymacx86
+13:601  0:337  - [01]: Simple Theme Dark
+14:147  0:545  - [02]: Aero
+14:575  0:428  - [03]: BGM
